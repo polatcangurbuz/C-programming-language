@@ -16,5 +16,6 @@ int main(int argc, char *argv[]) {
     hiz=yol/zaman;//aritmetik işlem
     printf("sonuc=%.2f",hiz);/*.2 kullanmamızın nedeni sonuc değeri float çıktığı için virgülden sonra ne kadar değer
 	görmek istiyorsak noktadan sonra o sayıyı yazıyoruz*/
+	getch();//klavyeden enter tuşuna basılmasını beklediğimizden dolayı bu fonksiyonu kullanıyoruz.
 	return 0;
 }
