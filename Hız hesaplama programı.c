@@ -10,10 +10,10 @@ int main(int argc, char *argv[]) {
     char harf;
 	printf("Polat ile Ferhat'in ilk uygulamasi \n",harf);
     printf("Hesaplamak istediginiz hizin yol uzunlugunu giriniz = \n ",yol);
-    scanf("%d",&yol);
+    scanf("%d",&yol);//klavyeden input(veri girişi)almak için bu fonksiyon kullanılır.
     printf("Hesaplamak istediginiz hizin zamanini giriniz = \n ",zaman);
     scanf("%d",&zaman);
-    hiz=yol/zaman;
+    hiz=yol/zaman;//aritmetik işlem
     printf("sonuc=%d",hiz);
     
     
