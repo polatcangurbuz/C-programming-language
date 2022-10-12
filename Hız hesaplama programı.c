@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     int zaman;
     int hiz;
     char harf;
-	printf("Polat ile Ferhat'in ilk uygulamasi \n",harf);
+	printf("Hız hesaplama programima hosgeldiniz \n",harf);
     printf("Hesaplamak istediginiz hizin yol uzunlugunu giriniz = \n ",yol);
     scanf("%d",&yol);//klavyeden input(veri girişi)almak için bu fonksiyon kullanılır.
     printf("Hesaplamak istediginiz hizin zamanini giriniz = \n ",zaman);
