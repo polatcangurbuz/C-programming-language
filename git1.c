@@ -14,6 +14,7 @@ int main(int argc, char *argv[]) {
     printf("Hesaplamak istediginiz hizin zamanini giriniz = \n ",zaman);
     scanf("%d",&zaman);
     hiz=yol/zaman;//aritmetik işlem
-    printf("sonuc=%.2f",hiz);
+    printf("sonuc=%.2f",hiz);/*.2 kullanmamızın nedeni sonuc değeri float çıktığı için virgülden sonra ne kadar değer
+	görmek istiyorsak noktadan sonra o sayıyı yazıyoruz*/
 	return 0;
 }
